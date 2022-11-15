@@ -3,7 +3,7 @@ from django.db import models
 from django.urls import reverse
 
 # Create your models here.
-class book (models.Model):
+class book(models.Model):
     id = models.UUIDField(primary_key=True,
         default=uuid.uuid4,
         editable=False)
